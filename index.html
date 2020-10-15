@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"/>
+  <title>구글 클론</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="navbar">
+      <ul id="menu">
+        <li><a href="https://mail.google.com">Gmail</a></li>
+        <li><a href="https://google.co.kr/imghp">이미지</a></li>
+        <li><a href="#"><img src="images/etc.jpg" width="24px" height="24px"/></a></li>
+        <li><button class="login" onclick="location.href='https://accounts.google.com'">로그인</button></li>
+      </ul>
+  </header>
+
+  <div class="container">
+    <img id="logo" src="images/logo.JPG"/>
+    <div class="searchbox">
+      <img class="searchimg" id="gsearch" src="images/search.JPG"/>
+      <form action="https://www.google.com/search" method="GET">
+        <input id="search" type="text">
+      </form>
+      <img class="searchimg" id="mic" src="images/mic.JPG"/>
+    </div>
+
+    <div class="btns">
+    <button class="btn gsearch" onclick="location.href='https://www.google.com'">Google 검색</button> 
+    <button class="btn lucky" onclick="location.href='https://www.google.com/doodles/'">I'm Feeling Lucky</button>
+  </div>
+  </div>
+</body>
+</html>
